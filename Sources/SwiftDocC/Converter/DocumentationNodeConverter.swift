@@ -56,6 +56,6 @@ public struct DocumentationNodeConverter {
     }
 }
 
-/// A converter that coverts documentation nodes to render nodes.
+/// A converter that converts documentation nodes to render nodes.
 @available(*, deprecated, message: "Please use DocumentationNodeConverter instead.")
 public typealias Converter = DocumentationNodeConverter
